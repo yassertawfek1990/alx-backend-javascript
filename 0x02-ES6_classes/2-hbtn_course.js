@@ -9,6 +9,10 @@ export default class HolbertonCourse {
     return this._name;
   }
 
+  /**
+   * @param {String} length asna ddf al
+   */
+
   set name(value) {
     if (typeof value !== 'string') {
       throw new TypeError('Name must be a string');
@@ -20,6 +24,9 @@ export default class HolbertonCourse {
     return this._length;
   }
 
+  /**
+   * @param {Number} lengtsddscsvh
+   */
   set length(value) {
     if (typeof value !== 'number') {
       throw new TypeError('Length must be a number');
